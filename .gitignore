@@ -1,0 +1,42 @@
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.bak
+*.pyc
+__pycache__/
+
+# Backups
+*.tar.gz
+*.zip
+*.gcode
+config/mmu-*/
+config/mmubkp/
+config/backup*/
+
+# Dados de execução
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+
+# Credenciais
+.env
+.env.*
+*secrets*
+*credentials*
+*password*
+
+# Firmware compilado
+*.bin
+*.hex
+*.elf
+*.o
+
+# Resultados de calibração gerados pelo ShakeTune
+/config/K-ShakeTune_results/
+
+# Backups antigos
+*.cfg-old
+*.cfg.old
+*.bkp
+/config/macros/print_end_old.cfg

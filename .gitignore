@@ -40,3 +40,8 @@ config/backup*/
 *.cfg.old
 *.bkp
 /config/macros/print_end_old.cfg
+
+# Arquivos gerados durante o funcionamento
+/logs/
+/gcodes/
+/database/
